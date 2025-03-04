@@ -1,6 +1,6 @@
 FROM node:14
 ENV QBIT_HOST=http://localhost:8080
-WORKDIR /src/node-app
+WORKDIR /usr/src/node-app
 COPY . ./
 RUN npm install
 RUN npm run build
